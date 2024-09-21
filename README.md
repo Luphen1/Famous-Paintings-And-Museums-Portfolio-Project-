@@ -5,38 +5,51 @@
 
 
 
-                        ---------------------
+---------------------
                         
 
 -  [Project Overview](#Project_Overview)
+  
 
 -  [Data Source](#Data_Source)
+  
 
 -  [Tools](#Tools)
+  
 
 -  [Data Cleaning/Preparation](#Data_Cleaning/Preparation)
+  
 
 -  [Exploration Data Analysis](#Exploration_Data_Analysis)
+  
 
 -  [Data Analysis](#Data_Analysis)
+  
 
 -  [Results/Findings](#Results/Findings)
+  
 
 -  [Recommendations](#Recommendations)
 
 
 ###Project Overview
+
 The project is about famous paintings and their artists. it also comprises of museum dataset. Eight datasets were provided from the primary source, but we would dive more deeper with seven datasets to find trends and patterns. During the project I will be working on more advanced SQL techniques using joins, window functions, subqueries, and CTEs.
 
 ###Data Source
+
 The primary datasets utilized for the project was downloaded from the provided link [https://www.kaggle.com/datasets/mexwell/famous-paintings]( https://www.kaggle.com/datasets/mexwell/famous-paintings)
 
 
 ###Tool
+
+
 MICROSOFT SQL SERVER was utilized for importing and inspecting the dataset, check for duplicate records, and identifying null values to standardize the dataset for data quality assurance.
 
 
 ### Exploration Data Analysis
+
+
 EDA involved exploring key questions such as:
 
 
@@ -60,6 +73,8 @@ EDA involved exploring key questions such as:
 
 ### Data Cleaning/Preparation
 
+
+
 In the initial data preparation, I performed the following tasks below:
 1. Data loading and inspection.
 2. Handling for missing values.
@@ -67,7 +82,10 @@ In the initial data preparation, I performed the following tasks below:
 4. Data preprocessing.
 
 ###Data Analysis
+
+
 ```
+
 -- Inspecting and loading of datasets.
 -- We had 421 records in table artist.
 SELECT * FROM [Paintings].[dbo].[artist]
