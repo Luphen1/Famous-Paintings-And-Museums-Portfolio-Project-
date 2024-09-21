@@ -538,27 +538,27 @@ e.	Musée du Louvre in France with an invalid city listed as 75001.
 f.	Kröller-Müller Museum in the Netherlands with an invalid city listed as 6731 AW Otterlo.
 6.	The artist who lived the longest was Pierre-Auguste Renoir, a French Impressionist, who created 468 paintings and died at the age of 78.
 7.	The top ten most famous painting subjects were:
-a.	Portraits: 1,070 paintings
-b.	Nudes: 525 paintings
-c.	Landscape Art: 495 paintings
-d.	Rivers/Lakes: 480 paintings
-e.	Abstract/Modern Art and Flowers: 457 paintings each
-f.	Still-Life: 395 paintings
-g.	Seascapes: 324 paintings
-h.	Marine Art/Maritime: 268 paintings
-i.	Horses: 265 paintings
-j.	Gardens: 261 paintings
+**a.	Portraits:** 1,070 paintings
+**b.	Nudes:** 525 paintings
+**c.	Landscape Art:** 495 paintings
+**d.	Rivers/Lakes:** 480 paintings
+**e.	Abstract/Modern Art and Flowers:** 457 paintings each
+**f.	Still-Life:** 395 paintings
+**g.	Seascapes:** 324 paintings
+**h.	Marine Art/Maritime:** 268 paintings
+**i.	Horses:** 265 paintings
+**j.	Gardens:** 261 paintings
 8.	Thirty-eight museums were open on both Sunday and Monday.
 9.	Nine museums were open on weekdays only, listed below:
-a.	Musée des Beaux-Arts de Quimper, France
-b.	Museum of Fine Arts, Houston, USA
-c.	Nelson-Atkins Museum of Art, USA
-d.	Norton Simon Museum, USA
-e.	Philadelphia Museum of Art, USA
-f.	The Art Institute of Chicago, USA
-g.	The Barnes Foundation, USA
-h.	Toledo Museum of Art, USA
-i.	Walters Art Museum, USA
+a.	Musée des Beaux-Arts de Quimper, France.
+*b.	Museum of Fine Arts, Houston, USA.*
+*c.	Nelson-Atkins Museum of Art, USA.*
+*d.	Norton Simon Museum, USA.*
+*e.	Philadelphia Museum of Art, USA.*
+*f.	The Art Institute of Chicago, USA.*
+*g.	The Barnes Foundation, USA.*
+*h.	Toledo Museum of Art, USA.*
+*i.	Walters Art Museum, USA.*
 10.	The most popular painting style was Impressionist landscapes (Paysage), which appeared five times.
 11.	4,467 paintings were displayed in multiple countries.
 12.	London, New York, Paris, and Washington had the most museums in their respective cities, while the USA had the highest number of museums overall.
