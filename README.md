@@ -36,6 +36,10 @@
 
 The project focuses on famous paintings, their artists, and an accompanying museum dataset. Of the eight datasets provided, I will focus on seven to uncover trends and patterns related to paintings and museums. The findings involve questions such as which paintings were not displayed in any museum, identifying museums with invalid city information, and analyzing the most popular painting styles. Advanced SQL techniques such as joins, window functions, subqueries, and CTEs will be utilized to explore these questions and derive meaningful insights from the data.
 
+**Note**
+*A total of eight tables were provided from Kaggle, but i worked with seven datasets to uncover trends and patterns.
+The eighth table was the 'URL Image' of paintings, which was not used in the analysis.*
+
 
 
 ### Data Source
