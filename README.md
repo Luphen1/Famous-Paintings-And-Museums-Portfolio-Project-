@@ -20,7 +20,7 @@
 -  [Data Cleaning/Preparation](#Data_Cleaning/Preparation)
   
 
--  [Exploration Data Analysis](#Exploration_Data_Analysis)
+-  [Exploratory Data Analysis](#Exploration_Data_Analysis)
   
 
 -  [Data Analysis](#Data_Analysis)
@@ -34,7 +34,7 @@
 
 ### Project Overview
 
-The project focuses on famous paintings, their artists, and an accompanying museum dataset. Of the eight datasets provided, I will focus on seven to uncover trends and patterns related to paintings and museums. The findings involve questions such as which paintings were not displayed in any museum, identifying museums with invalid city information, and analyzing the most popular painting styles. Advanced SQL techniques such as joins, window functions, subqueries, and CTEs will be used to explore these questions and derive meaningful insights from the data.
+The project focuses on famous paintings, their artists, and an accompanying museum dataset. Of the eight datasets provided, I will focus on seven to uncover trends and patterns related to paintings and museums. The findings involve questions such as which paintings were not displayed in any museum, identifying museums with invalid city information, and analyzing the most popular painting styles. Advanced SQL techniques such as joins, window functions, subqueries, and CTEs will be utilized to explore these questions and derive meaningful insights from the data.
 
 
 
@@ -538,16 +538,16 @@ e.	Musée du Louvre in France with an invalid city listed as 75001.
 f.	Kröller-Müller Museum in the Netherlands with an invalid city listed as 6731 AW Otterlo.
 6.	The artist who lived the longest was Pierre-Auguste Renoir, a French Impressionist, who created 468 paintings and died at the age of 78.
 7.	The top ten most famous painting subjects were:
-**a.	Portraits:** 1,070 paintings
-**b.	Nudes:** 525 paintings
-**c.	Landscape Art:** 495 paintings
-**d.	Rivers/Lakes:** 480 paintings
-**e.	Abstract/Modern Art and Flowers:** 457 paintings each
-**f.	Still-Life:** 395 paintings
-**g.	Seascapes:** 324 paintings
-**h.	Marine Art/Maritime:** 268 paintings
-**i.	Horses:** 265 paintings
-**j.	Gardens:** 261 paintings
+**a.	Portraits: 1,070 paintings.**
+**b.	Nudes: 525 paintings.**
+**c.	Landscape Art: 495 paintings.**
+**d.	Rivers/Lakes: 480 paintings.**
+**e.	Abstract/Modern Art and Flowers: 457 paintings each.**
+**f.	Still-Life: 395 paintings.**
+**g.	Seascapes: 324 paintings.**
+**h.	Marine Art/Maritime: 268 paintings.**
+**i.	Horses: 265 paintings.**
+**j.	Gardens: 261 paintings.**
 8.	Thirty-eight museums were open on both Sunday and Monday.
 9.	Nine museums were open on weekdays only, listed below:
 a.	Musée des Beaux-Arts de Quimper, France.
