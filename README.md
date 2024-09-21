@@ -32,22 +32,22 @@
 -  [Recommendations](#Recommendations)
 
 
-###Project Overview
+### Project Overview
 
 The project is about famous paintings and their artists. it also comprises of museum dataset. Eight datasets were provided from the primary source, but we would dive more deeper with seven datasets to find trends and patterns. During the project I will be working on more advanced SQL techniques using joins, window functions, subqueries, and CTEs.
 
-###Data Source
+### Data Source
 
 The primary datasets utilized for the project was downloaded from the provided link [https://www.kaggle.com/datasets/mexwell/famous-paintings]( https://www.kaggle.com/datasets/mexwell/famous-paintings)
 
 
-###Tool
+### Tool
 
 
 MICROSOFT SQL SERVER was utilized for importing and inspecting the dataset, check for duplicate records, and identifying null values to standardize the dataset for data quality assurance.
 
 
-### Exploration Data Analysis
+### Exploratory Data Analysis
 
 
 EDA involved exploring key questions such as:
@@ -81,7 +81,7 @@ In the initial data preparation, I performed the following tasks below:
 3. Checking for duplicate values.
 4. Data preprocessing.
 
-###Data Analysis
+### Data Analysis
 
 
 ```
@@ -230,10 +230,9 @@ WHERE dup_rnk > 1
 ```
 
 ```
-
--- Note
+ **Note
 -- The total datasets provided on kaggle were eight tables, but we worked with seven datasets only to find trends and patterns.
--- The eight table was the 'Url Image' of paintings. 
+-- The eight table was the 'Url Image' of paintings.**
 
 -- Here were the tables,i used to find trends and patterns. 
 SELECT * FROM [Paintings].[dbo].[artist]
@@ -538,22 +537,22 @@ i.	Walters Art Museum, USA
 15.	Forty-eight museums were open during the weekend.
 
 
-###Recommendations
+### Recommendations
 
 
 
 These recommendations aim to enhance the visibility of artworks, improve museum operations, and engage a broader audience through innovative exhibition strategies.
 
 
-*1.	Increase Exhibition Visibility:* Since 10,223 paintings were not displayed in museums, consider digital exhibitions or partnerships with galleries to increase visibility and accessibility of these artworks.
+**1.	Increase Exhibition Visibility:** Since 10,223 paintings were not displayed in museums, consider digital exhibitions or partnerships with galleries to increase visibility and accessibility of these artworks.
 
-*2.	Data Correction:* Address the six museums with invalid city information by cross-referencing with reliable data sources or reaching out to the museums for accurate city details.
+**2.	Data Correction:** Address the six museums with invalid city information by cross-referencing with reliable data sources or reaching out to the museums for accurate city details.
 
-*3.	Dynamic Pricing Strategy:* Since no museums had an asking price higher than the regular price, explore dynamic pricing models, especially for high-demand exhibits or premium artworks, to optimize revenue.
+**3.	Dynamic Pricing Strategy:** Since no museums had an asking price higher than the regular price, explore dynamic pricing models, especially for high-demand exhibits or premium artworks, to optimize revenue.
 
-*4.	Canvas Size Insights:* Leverage the data about the most expensive canvas size (48" x 96") to guide pricing strategies for similarly large or custom-sized canvases, ensuring customers see the value.
+**4.	Canvas Size Insights:** Leverage the data about the most expensive canvas size (48" x 96") to guide pricing strategies for similarly large or custom-sized canvases, ensuring customers see the value.
 
-*5.	Artist Longevity and Exhibit Strategy:* Given Pierre-Auguste Renoir’s prominence, museums could develop targeted exhibits on artists with long careers, focusing on the evolution of their work over time.
+**5.	Artist Longevity and Exhibit Strategy:** Given Pierre-Auguste Renoir’s prominence, museums could develop targeted exhibits on artists with long careers, focusing on the evolution of their work over time.
 
 **6.	Subject-Based Curated Exhibits:** The top 10 painting subjects, such as Portraits, Nudes, and Landscape Art, suggest that museums could create more subject-focused curated exhibitions to engage audiences interested in these themes.
 
