@@ -34,7 +34,9 @@
 
 ### Project Overview
 
-The project is about famous paintings and their artists. it also comprises of museum dataset. Eight datasets were provided from the primary source, but we would dive more deeper with seven datasets to find trends and patterns. During the project I will be working on more advanced SQL techniques using joins, window functions, subqueries, and CTEs.
+The project focuses on famous paintings, their artists, and an accompanying museum dataset. Of the eight datasets provided, I will focus on seven to uncover trends and patterns related to paintings and museums. The findings involve questions such as which paintings were not displayed in any museum, identifying museums with invalid city information, and analyzing the most popular painting styles. Advanced SQL techniques such as joins, window functions, subqueries, and CTEs will be used to explore these questions and derive meaningful insights from the data.
+
+
 
 ### Data Source
 
