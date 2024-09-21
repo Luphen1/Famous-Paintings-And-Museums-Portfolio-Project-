@@ -530,7 +530,7 @@ SELECT DISTINCT m.name as museum_name,m.country as country,
 
 
 1.	10,223 paintings were not displayed in any museum.
-2.	There were no museums without any paintings based on the analysis.
+2.	There were no museums without any paintings based on my analysis.
 3.	No museums had an asking price higher than their regular price.
 4.	The most expensive canvas size identified was 48" x 96" (122 cm x 244 cm), priced at $1,115.
 5.	Six museums were found with invalid city information:
