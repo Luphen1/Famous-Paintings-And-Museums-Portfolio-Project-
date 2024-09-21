@@ -538,19 +538,19 @@ e.	Musée du Louvre in France with an invalid city listed as 75001.
 f.	Kröller-Müller Museum in the Netherlands with an invalid city listed as 6731 AW Otterlo.
 6.	The artist who lived the longest was Pierre-Auguste Renoir, a French Impressionist, who created 468 paintings and died at the age of 78.
 7.	The top ten most famous painting subjects were:
-**a.	Portraits: 1,070 paintings.**
-**b.	Nudes: 525 paintings.**
-**c.	Landscape Art: 495 paintings.**
-**d.	Rivers/Lakes: 480 paintings.**
-**e.	Abstract/Modern Art and Flowers: 457 paintings each.**
-**f.	Still-Life: 395 paintings.**
-**g.	Seascapes: 324 paintings.**
-**h.	Marine Art/Maritime: 268 paintings.**
-**i.	Horses: 265 paintings.**
-**j.	Gardens: 261 paintings.**
+**a.	Portraits: 1,070 paintings**
+**b.	Nudes: 525 paintings**
+**c.	Landscape Art: 495 paintings**
+**d.	Rivers/Lakes: 480 paintings**
+**e.	Abstract/Modern Art and Flowers: 457 paintings each**
+**f.	Still-Life: 395 paintings**
+**g.	Seascapes: 324 paintings**
+**h.	Marine Art/Maritime: 268 paintings**
+**i.	Horses: 265 paintings**
+**j.	Gardens: 261 paintings**
 8.	Thirty-eight museums were open on both Sunday and Monday.
 9.	Nine museums were open on weekdays only, listed below:
-a.	Musée des Beaux-Arts de Quimper, France.
+*a.	Musée des Beaux-Arts de Quimper, France.*
 *b.	Museum of Fine Arts, Houston, USA.*
 *c.	Nelson-Atkins Museum of Art, USA.*
 *d.	Norton Simon Museum, USA.*
