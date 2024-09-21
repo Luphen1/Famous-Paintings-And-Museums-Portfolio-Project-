@@ -55,11 +55,11 @@ EDA involved exploring key questions such as:
 
 1.	Fetch all the paintings that were not displayed in any museums.
    
-2.      Were there any museums without paintings?
+2. Were there any museums without paintings?
    
-3.     How many paintings had an asking price higher than their regular price?
+3.  How many paintings had an asking price higher than their regular price?
    
-4.     Which canvas size costs the most?
+4.  Which canvas size costs the most?
 Identify the museums with invalid city information in the given dataset.
 
 
