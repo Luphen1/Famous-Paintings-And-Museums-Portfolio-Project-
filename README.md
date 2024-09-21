@@ -46,7 +46,7 @@ The primary datasets utilized for the project was downloaded from the provided l
 ### Tool
 
 
-MICROSOFT SQL SERVER was utilized for importing and inspecting the dataset, check for duplicate records, and identifying null values to standardize the dataset for data quality assurance.
+Microsoft SQL Server was used to import and inspect the dataset, check for duplicate records, and identify null values to standardize the dataset for data quality assurance.
 
 
 ### Exploratory Data Analysis
