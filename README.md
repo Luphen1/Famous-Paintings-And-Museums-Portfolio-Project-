@@ -492,7 +492,7 @@ SELECT DISTINCT m.name as museum_name,m.country as country,
 ```
 
 
-Results/Findings:
+### Results/Findings:
 
 
 1.	10,223 paintings were not displayed in any museum.
@@ -564,7 +564,7 @@ These recommendations aim to enhance the visibility of artworks, improve museum 
 
 **10.	Expand Weekend Operations:** Since 48 museums operate on weekends, consider expanding weekend hours or offering special weekend-only events, such as guided tours or artist talks, to boost attendance.
 
-*11.	Museum Network Development:* Capitalize on the fact that the USA has the most museums by forming national or international museum networks that facilitate resource sharing, cross-promotions, and collaborative exhibitions.
+**11.	Museum Network Development:** Capitalize on the fact that the USA has the most museums by forming national or international museum networks that facilitate resource sharing, cross-promotions, and collaborative exhibitions.
 
 **12.	Promote Regional Art Specialties:** Given the low number of Baroque paintings in the Netherlands, consider increasing the focus on regional or historical art styles that may be underrepresented, promoting diversity in exhibitions.
 
