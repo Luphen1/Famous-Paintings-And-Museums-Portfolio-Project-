@@ -53,21 +53,44 @@ MICROSOFT SQL SERVER was utilized for importing and inspecting the dataset, chec
 EDA involved exploring key questions such as:
 
 
-1.	Fetch all the paintings which were not displayed on any museums?
-2.	Were there museums without any paintings?
-3.	How many paintings had an asking price more than their regular price?
-4.	Which canva size costs the most?
-5.	Identify the museums with invalid city information in the given dataset.
-6.	Which artist lived more longer, Display artist, nationality, style, age, and the number of piantings they had before they died.
-7.	Fetch the top ten most famous paintings subject.
-8.	Identify the museums which are open on both Sunday and Monday. Display museum name, state and country.
-9.	How many museums were opened during the weekdays? Display museum name, country and city.
-10.	Which museum had the highest number of most popular painting style?
-11.	Identify the artists whose paintings were displayed in multiple countries.
-12.	Display the country and the city with the highest number of museums. Output two separate columns to mention the country and city. If there are multiple values, separate them with comma.
-13.	Which country had the highest number of paintings? Display style categories of the paintings.
-14.	Which artist had the highest number of portraits paintings outside USA? Display artist name, number of paintings and the artist nationality.
-15.	How many museums were opened during the weekend? Display museum name, country and city.
+1.	Fetch all the paintings that were not displayed in any museums.
+   
+2.      Were there any museums without paintings?
+   
+3.     How many paintings had an asking price higher than their regular price?
+   
+4.     Which canvas size costs the most?
+Identify the museums with invalid city information in the given dataset.
+
+
+5.  Identify the museums with invalid city information in the given dataset.
+
+6.    Which artist lived the longest? Display the artist's name, nationality, style, age, and the number of paintings they had before they died.
+  
+7.    Fetch the top ten most famous painting subjects.
+
+8.    Identify the museums that are open on both Sunday and Monday. Display the museum name, state, and country.
+
+9.    How many museums were open during weekdays? Display the museum name, country, and city.
+  
+10.    Which museum had the highest number of the most popular painting styles?
+
+
+11.   Identify the artists whose paintings were displayed in multiple countries.
+
+
+12.   Display the country and the city with the highest number of museums. Output two separate columns to mention the country and city. If there are multiple values, separate them with commas.
+
+
+13.   Which country had the highest number of paintings? Display the style categories of the paintings.
+
+
+14.   Which artist had the highest number of portrait paintings outside the USA? Display the artist's name, number of paintings, and nationality.
+
+    
+15.   How many museums were open during the weekend? Display the museum name, country, and city.
+
+
 
 
 
