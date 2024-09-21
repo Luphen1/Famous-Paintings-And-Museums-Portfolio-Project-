@@ -272,7 +272,7 @@ SELECT * FROM [Paintings].[dbo].[product_size]
 
 ```
 -- There were 10,223 paintings which were not displayed on any museums.
--- 1) Fetch all the paintings which were not displayed on any museums?
+-- 1) Fetch all the paintings that were not displayed in any museums.
 select * 
 from [Paintings].[dbo].[work] where museum_id is null
 
@@ -287,7 +287,8 @@ select * from [Paintings].[dbo].[museum] m
 ```
 
 ```
--- 3) How many paintings have an asking price more than their regular price? 
+-- 3) How many paintings had an asking price higher than their regular price?
+    
 SELECT name
      FROM [Paintings].[dbo].[work] w
 	 JOIN [Paintings].[dbo].[product_size] p
@@ -304,7 +305,8 @@ from [Paintings].[dbo].[product_size]
 
 ```
 	 
--- 4) Which canva size costs the most?
+-- 4) Which canvas size costs the most?
+Identify the museums with invalid city information in the given dataset.
 SELECT TOP 1 cz.label,
 		pz.sale_price
 		FROM [Paintings].[dbo].[canvas_size] cz
@@ -326,7 +328,7 @@ select * from [Paintings].[dbo].[museum]
 
 ```
 
--- 6) Which artist lived more longer,Display artist,nationality,style, age and the number of piantings they had before they died.
+-- 6) Which artist lived the longest? Display the artist's name, nationality, style, age, and the number of paintings they had before they died.
 
 SELECT artist,nationality,style,no_of_paintings,age
 FROM 
@@ -345,7 +347,7 @@ SELECT a.full_name as artist,a.nationality as nationality,
 
 ```
 
--- 7) Fetch the top 10 most famous painting subject
+-- 7) Fetch the top ten most famous painting subjects.
 
 SELECT * 
 	FROM
@@ -362,7 +364,8 @@ COUNT(*) AS number_of_paintings,
 ```
 
 ```
--- 8) Identify the museums which are open on both Sunday and Monday. Display museum name, state and country.
+-- 8) Identify the museums that are open on both Sunday and Monday. Display the museum name, state, and country.
+
 WITH CTE AS(
 SELECT DISTINCT pm.name,pm.country,pm.state
 	FROM [Paintings].[dbo].[museum] pm
@@ -382,7 +385,7 @@ SELECT DISTINCT pm.name,pm.country,pm.state
 ```
 
 ```
--- 9) How many museums were opened during the weekdays? Display museum name, county.
+-- 9) How many museums were open during weekdays? Display the museum name, country, and city.
 WITH weekdays_museum AS
 (
 SELECT DISTINCT m.name as museum_name,m.country as country,m.city as city,
@@ -398,7 +401,8 @@ SELECT DISTINCT m.name as museum_name,m.country as country,m.city as city,
 ```
 
 ```
--- 10) Which museum had the highest number of most popular painting style?
+-- 10) Which museum had the highest number of the most popular painting styles?
+
 SELECT museum_name,style,no_of_paints
 FROM 
 (
@@ -436,7 +440,7 @@ SELECT a.full_name as artist,m.country as country,w.name as name_of_paints
 ```
 
 ```
--- 12) Display the country and the city with the highest number of museums. Output to separate columns to mention the country and city. If there are multiple value, separate them with comma.
+-- 12) Display the country and the city with the highest number of museums. Output two separate columns to mention the country and city. If there are multiple values, separate them with commas.
 SELECT * FROM [Paintings].[dbo].[museum]
 
 WITH cte_country AS
@@ -460,7 +464,7 @@ WITH cte_country AS
 ```
 
 ```
--- 13) Which country had the highest number of paintings? Display style categories of the paintings.
+-- 13) Which country had the highest number of paintings? Display the style categories of the paintings.
 
 SELECT country,style,no_of_paintings
 FROM
@@ -477,7 +481,7 @@ FROM
 ```
 
 ```
--- 14) Which artist had the highest number of portraits paintings outside USA?  Display artist name, number of paintings and the artist nationality.
+-- 14) Which artist had the highest number of portrait paintings outside the USA? Display the artist's name, number of paintings, and nationality.
 
 SELECT artist,nationality,no_of_paintings
 FROM
@@ -501,7 +505,8 @@ SELECT a.full_name as artist,a.nationality as nationality,
 
 
 ```
--- 15) How many museums were opened during the weekend? Display museum name, country and city.
+-- 15) How many museums were open during the weekend? Display the museum name, country, and city.
+
 WITH weekday_museums AS
 (
 SELECT DISTINCT m.name as museum_name,m.country as country,
