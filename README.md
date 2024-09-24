@@ -65,9 +65,7 @@ EDA involved exploring key questions such as:
    
 3.  How many paintings had an asking price higher than their regular price?
    
-4.  Which canvas size costs the most?
-Identify the museums with invalid city information in the given dataset.
-
+4.  Which canvas size costs the most? 
 
 5.  Identify the museums with invalid city information in the given dataset.
 
